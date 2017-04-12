@@ -1,0 +1,27 @@
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.pad {
+  padding-top: 60px; }
+
+@media (max-width: 750px) {
+  .pad {
+    padding-top: 30px; } }
+
+@media (max-width: 360px) {
+  .pad {
+    padding-top: 15px; } }
+
+.space-top {
+  margin-top: 60px; }
+
+@media (max-width: 750px) {
+  .space-top {
+    margin-top: 30px; } }
+
+@media (max-width: 360px) {
+  .space-top {
+    margin-top: 15px; } }

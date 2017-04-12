@@ -1,0 +1,53 @@
+$lightgreen: #99E1AF;
+$green: #04994A;
+$orange:#F6A623;
+$darkgray:#5D5D5D;
+$gray:#D8D8D8;
+$lightgray:#F3F3F3;
+$purple:#D48CE0;
+$yellow:#F5DD52;
+
+$text:$gray;
+$primary:$green;
+$loud:$purple;
+$caption:$orange;
+
+$pad:60px;
+$padbtn:13px;
+
+//helpers
+.block{
+	display:block;
+}
+.inline-block{
+	display:inline-block;
+}
+.pad{
+	padding-top:$pad;
+}
+@media (max-width:750px){
+	.pad{
+	padding-top:$pad/2;
+}
+}
+
+@media (max-width:360px){
+	.pad{
+	padding-top:$pad/4;
+}
+}
+
+.space-top{
+	margin-top:$pad;
+}
+@media (max-width:750px){
+	.space-top{
+	margin-top:$pad/2;
+}
+}
+
+@media (max-width:360px){
+	.space-top{
+	margin-top:$pad/4;
+}
+}

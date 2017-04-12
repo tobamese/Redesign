@@ -1,0 +1,73 @@
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.pad {
+  padding-top: 60px; }
+
+@media (max-width: 750px) {
+  .pad {
+    padding-top: 30px; } }
+
+@media (max-width: 360px) {
+  .pad {
+    padding-top: 15px; } }
+
+.space-top {
+  margin-top: 60px; }
+
+@media (max-width: 750px) {
+  .space-top {
+    margin-top: 30px; } }
+
+@media (max-width: 360px) {
+  .space-top {
+    margin-top: 15px; } }
+
+.container {
+  width: 100%;
+  width: calc(100% - 120px);
+  margin: 60px auto; }
+
+.oneEight {
+  float: left;
+  width: 12.5%; }
+
+.twoEight {
+  float: left;
+  width: 25%; }
+
+.threeEight {
+  float: left;
+  width: 37.5%; }
+
+.fourEight {
+  float: left;
+  width: 50%; }
+
+.fiveEight {
+  float: left;
+  width: 62.5%; }
+
+.sixEight {
+  float: left;
+  width: 75%; }
+
+.sevenEight {
+  float: left;
+  width: 87.5%; }
+
+.clearfix {
+  clear: both; }
+
+@media (max-width: 750px) {
+  .oneEight,
+  .twoEight,
+  .threeEight,
+  .fourEight,
+  .fiveEight,
+  .sixEight,
+  .sevenEight {
+    width: 100%; } }

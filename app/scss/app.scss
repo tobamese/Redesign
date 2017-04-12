@@ -1,0 +1,29 @@
+@import 'mixins';
+hr{
+	border:0;
+	height: 1px;
+	background: $lightgray;
+}
+
+article img{
+	width:100%;
+	display:block;
+	margin:0 auto;
+}
+
+img .progress{
+	max-width:215px;
+}
+
+.social{
+	height:120px;
+	background: $lightgray;
+	padding:$pad;
+}
+
+span.quiet{
+	font-size:1.125em;
+	color:$orange;
+	font-weight:300;
+	font-style:italic;
+}

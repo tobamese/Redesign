@@ -1,0 +1,31 @@
+@import 'mixins';
+.btn{
+	padding:0 $padbtn;
+	font-weight:600;
+	font-size:1.125em;
+	text-decoration:none;
+	border:$gray 2px solid;
+	color:$gray;
+	cursor:pointer;
+	border-radius:5px;
+	&:hover{
+		background: $gray;
+		color:white;
+	}
+	&.primary{
+		border-color:$green;
+		color:$green;
+		&:hover{
+			background: $green;
+			color:white;
+		}
+	}
+	&.secondary{
+		border-color:$purple;
+		color:$purple;
+		&:hover{
+			background: $purple;
+			color:white;
+		}
+	}
+}

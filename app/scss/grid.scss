@@ -1,0 +1,50 @@
+@import 'mixins';
+.container { 
+	width: 100%;
+	width:calc(100% - #{$pad*2});
+	margin:$pad auto;
+}
+
+.oneEight{
+	float: left;
+	width: 1/8 * 100%;
+}
+.twoEight{
+	float: left;
+	width: 2/8 * 100%;
+}
+.threeEight{
+	float: left;
+	width: 3/8 * 100%;
+}
+.fourEight{
+	float: left;
+	width: 4/8 * 100%;
+}
+.fiveEight{
+	float: left;
+	width: 5/8 * 100%;
+}
+.sixEight{
+	float: left;
+	width: 6/8 * 100%;
+}
+.sevenEight{
+	float: left;
+	width: 7/8 * 100%;
+}
+
+.clearfix{
+	clear:both;
+}
+@media (max-width:750px){
+	.oneEight,
+	.twoEight,
+	.threeEight,
+	.fourEight,
+	.fiveEight,
+	.sixEight,
+	.sevenEight{
+		width: 100%;
+	}
+}

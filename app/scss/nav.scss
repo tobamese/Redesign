@@ -1,0 +1,26 @@
+@import 'mixins';
+.nav-right,.nav-left{
+}
+.nav-right{
+	text-align:right;
+	ul{
+		li{
+			list-style: none;
+			display: inline;
+			padding: 10px;
+			a{
+				color:$text;
+				font-weight: 600;
+				font-size: 1.125em;
+				text-decoration: none;
+				&:hover{
+					color:$primary;
+				}
+			}
+		}
+	}
+}
+.nav-left{
+	float:left;
+	width:50%;
+}
