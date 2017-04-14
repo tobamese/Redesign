@@ -1,6 +1,7 @@
 @import 'mixins';
 .btn{
 	padding:0 $padbtn;
+	width:300px;
 	font-weight:600;
 	font-size:1.125em;
 	text-decoration:none;
@@ -8,6 +9,7 @@
 	color:$gray;
 	cursor:pointer;
 	border-radius:5px;
+	display:inline-block;
 	&:hover{
 		background: $gray;
 		color:white;
@@ -28,4 +30,43 @@
 			color:white;
 		}
 	}
+}
+
+a{
+	.twitter,
+	.dribbble,
+	.github,
+	.linkedin{
+		display:inline-block;
+		width: 4em;
+		height: 4em;
+	}
+}
+
+.social-links a{
+	display:inline-block;
+	color:white;
+	border-radius:2em;
+	font-size:2em;
+	padding:1em;
+	text-decoration:none;
+	margin-right:1em;
+	&:last-of-type{
+		margin-right: 0;
+	}
+	&:hover{
+		opacity: .6;
+	}
+}
+a.twitter{
+	background: $twitter;
+}
+a.dribble{
+	background: $dribbble;
+}
+a.github{
+	background: $github;
+}
+a.linkedin{
+	background: $linkedin;
 }

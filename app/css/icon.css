@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'lizfolio';
+  src: url("../fonts/lizfolio.eot?pvca2j");
+  src: url("../fonts/lizfolio.eot?pvca2j#iefix") format("embedded-opentype"), url("../fonts/lizfolio.ttf?pvca2j") format("truetype"), url("../fonts/lizfolio.woff?pvca2j") format("woff"), url("../fonts/lizfolio.svg?pvca2j#lizfolio") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+i[class='icon-*'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lizfolio';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-email:before {
+  content: ""; }
+
+.icon-pencil2:before {
+  content: ""; }
+
+.icon-spinner:before {
+  content: ""; }
+
+.icon-twitter:before {
+  content: ""; }
+
+.icon-dribbble:before {
+  content: ""; }
+
+.icon-github:before {
+  content: ""; }
+
+.icon-linkedin2:before {
+  content: ""; }

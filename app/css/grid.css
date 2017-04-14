@@ -26,6 +26,9 @@
   .space-top {
     margin-top: 15px; } }
 
+* {
+  box-sizing: border-box; }
+
 .container {
   width: 100%;
   width: calc(100% - 120px);

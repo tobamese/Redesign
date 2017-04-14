@@ -7,7 +7,7 @@ font-family: 'Nunito Sans', sans-serif;
 margin:0; //reset
 }
 
-h1,h2,h3{
+h1,h2,h3,h4{
 	font-weight:900;
 }
 
@@ -22,9 +22,12 @@ h1{
 h2{
 	font-size: 1.375em;
 }
-
+h4{
+	color:$green;
+	font-size:1.375em;
+}
 .subheader{
-	color:$gray;
+	color:$text;
 }
 
 .text-center{
@@ -35,4 +38,9 @@ h2{
 }
 .text-right{
 	text-align:right;
+}
+h4 span.italic{
+	color:$text;
+	font-style:italic;
+	font-weight:300;
 }

@@ -28,13 +28,15 @@
 
 .btn {
   padding: 0 13px;
+  width: 300px;
   font-weight: 600;
   font-size: 1.125em;
   text-decoration: none;
   border: #D8D8D8 2px solid;
   color: #D8D8D8;
   cursor: pointer;
-  border-radius: 5px; }
+  border-radius: 5px;
+  display: inline-block; }
   .btn:hover {
     background: #D8D8D8;
     color: white; }
@@ -50,3 +52,36 @@
     .btn.secondary:hover {
       background: #D48CE0;
       color: white; }
+
+a .twitter,
+a .dribbble,
+a .github,
+a .linkedin {
+  display: inline-block;
+  width: 4em;
+  height: 4em; }
+
+.social-links a {
+  display: inline-block;
+  color: white;
+  border-radius: 2em;
+  font-size: 2em;
+  padding: 1em;
+  text-decoration: none;
+  margin-right: 1em; }
+  .social-links a:last-of-type {
+    margin-right: 0; }
+  .social-links a:hover {
+    opacity: .6; }
+
+a.twitter {
+  background: #26A7DF; }
+
+a.dribble {
+  background: #EA4C89; }
+
+a.github {
+  background: #979797; }
+
+a.linkedin {
+  background: #0178B5; }

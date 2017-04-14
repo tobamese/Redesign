@@ -32,20 +32,34 @@ hr {
   background: #F3F3F3; }
 
 article img {
+  display: inline-block; }
+
+.jumbo {
   width: 100%;
-  display: block;
   margin: 0 auto; }
 
-img .progress {
-  max-width: 215px; }
+.progress {
+  vertical-align: middle; }
 
 .social {
   height: 120px;
-  background: #F3F3F3;
-  padding: 60px; }
+  background: #F3F3F3; }
 
 span.quiet {
   font-size: 1.125em;
   color: #F6A623;
   font-weight: 300;
   font-style: italic; }
+
+.btn .icon-btn:hover {
+  padding-left: 10px; }
+
+.btn:hover .email-icon {
+  padding-left: 10px;
+  fill: white;
+  stroke: white; }
+
+.flex-center {
+  height: 13em;
+  display: flex;
+  align-items: center; }
